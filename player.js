@@ -1,6 +1,6 @@
 const player = document.querySelector('video');
 const buttons = [...document.querySelectorAll('.chapter')];
-const times = [0, 118.4, 156.7, 236.66666666666669];
+const times = [0, 118.83333333333334, 157.13333333333333, 237.10000000000002];
 const message = document.createElement('p');
 message.className='player-error';message.setAttribute('role','status');
 document.querySelector('.film-caption').after(message);
